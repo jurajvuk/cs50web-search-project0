@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    font-size: 1.7rem;
+    padding: 1rem;
+    height: 10vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links > li {
+    padding: 1rem;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    height: 10rem;
+}
+
+.search-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form input {
+    padding: 1rem;
+    width: 20rem;
+}
